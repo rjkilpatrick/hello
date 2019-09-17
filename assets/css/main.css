@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-item {
+  font: 13px "Trebuchet MS", sans-serif;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+.chat-wrapper {
+  max-width: 350px;
+  margin: auto auto;
+}
+
+.chat-message-box {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.chat-send {
+  width: 100%;
+  max-width: inherit;
+}
+
+.chat-status {
+  border: none;
+  padding: 10px 0;
+  color: #bbb;
+}
+
+.chat-send,
+.chat-name {
+  outline: none;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
